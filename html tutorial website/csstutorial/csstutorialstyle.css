@@ -1,0 +1,19 @@
+body{
+    background-color:#FCFFE9;
+}
+*{
+    color:#5FAAE3;
+}
+p,h2{
+    background-color: 0b032d;
+}
+pre{
+    background-color:f67e7d;
+    color:rgb(64, 61, 67)
+}
+content{
+    background-color: white;
+}
+.about_css{
+    text-align:center;
+}

@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+    color: white;
+}
+p{
+    background-color: blueviolet;
+}
+div{
+    background-color: blueviolet;
+    margin-left:100px;
+    margin-right: 100px;
+     
+}
+div p ,ul, ol ,li {
+    background-color: blueviolet;
+}
+a{
+    background-color: pink;
+    color: blue;
+}
+button{
+    background-color: blue;
+    
+}
+h2{
+    color:yellow
+}
+table{
+    background-color: blueviolet;
+}
+.linkSec a{
+    background-color:rgb(227, 53, 148);
+    color: white;
+}
+.links a{
+    background-color:rgb(227, 53, 148);
+    color: white;
+}
+.linkSec {
+    background-color:rgb(201, 50, 174);
+    color: white;
+}
+.links {
+    background-color:rgb(227, 53, 148);
+    color: white;
+}

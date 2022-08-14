@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Welcome to my blog on html basics</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<!--Background color black ecak code will go the to div which will be purple add some br between div blocks and font clor white you can use some glowing effect -->
+<body>
+<h4>Table 1 </h4>
+<br>
+<p>How to write code</p>
+&lt;table border="4"&gt;
+&lt;tr&gt;
+&lt;td&gt;row1,column1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+<br>
+<p>This table consists of only one row and only one col with border size 4 <br> tr is for table row and td is for table column</p>
+<br><br>
+<tr>
+<table border="4">
+    <td>row1,column1</td>
+</tr>
+</table>
+<br><br>
+<hr>
+<br>
+<h4>Table 2</h4>
+<br>
+<table border="4">
+    <tr>
+        <td>row1,col1</td>
+        <td>row1,col2</td>
+        <td>row1,col3</td>
+        <td>row1,col4</td>
+    </tr>
+    <tr>
+        <td>row2,col1</td>
+        <td>row2,col2</td>
+        <td>row2,col3</td>
+        <td>row2,col4</td>
+    </tr>
+    <tr>
+        <td>row3,col1</td>
+        <td>row3,col2</td>
+        <td>row3,col3</td>
+        <td>row3,col4</td>
+    </tr>
+</table>
+<br><br>
+<h4>Table 3</h4>
+<br>
+<p>we will add some cell padding - space  around data inside a cell and  cellspanning<br>
+ space between the cells. We are adding heading too.</p>
+<br>
+<p>How to write code</p>
+&lt;table border="4" cellpadding="5" cell spanning="5"&gt;
+<br><br>
+
+<table border="4" cellpadding="5"cell spanning="5">
+<tr><th colspan="4">Table 3</th></tr>
+    <tr>
+        <td>row1,col1</td>
+        <td>row1,col2</td>
+        <td>row1,col3</td>
+        <td>row1,col4</td>
+    </tr>
+    <tr>
+        <td>row2,col1</td>
+        <td>row2,col2</td>
+        <td>row2,col3</td>
+        <td>row2,col4</td>
+    </tr>
+    <tr>
+        <td>row3,col1</td>
+        <td>row3,col2</td>
+        <td>row3,col3</td>
+        <td>row3,col4</td>
+    </tr>
+</table>
+<br><br>
+<h4>Table 4</h4>
+<br>
+<p>Use of colspan and rowsapan.<br>
+ The colspan attribute in HTML specifies the number of columns a cell should span . <br>
+ The rowspan attribute in HTML specifies the number of columns a cell should span . </p>
+ <br><br>
+ <table border="4" cellpadding="5"cell spanning="5">
+    <tr><th colspan="4">Table 3</th></tr>
+        <tr>
+            <td>row1,col1</td>
+            <td>row1,col2</td>
+            <td>row1,col3</td>
+            <td>row1,col4</td>
+        </tr>
+        <tr>
+            <td>row2,col1</td>
+            <td>row2,col2</td>
+            <td>row2,col3</td>
+            <td>row2,col4</td>
+        </tr>
+        <tr>
+            <td colspan="4"><center>row3,col1</center></td>
+
+        </tr>
+    </table>
+    <br><br>
+    <h4>Table 5</h4>
+    <br>
+    <p>rowspan</p>
+    <br><br>
+    <table border="4" cellpadding="5"cell spanning="5">
+        <tr><th colspan="4">Table 3</th></tr>
+            <tr>
+                <td>row1,col1</td>
+                <td>row1,col2</td>
+                <td>row1,col3</td>
+                <td rowspan="0">row1,col4</td>
+            </tr>
+            <tr>
+                <td>row2,col1</td>
+                <td>row2,col2</td>
+                <td>row2,col3</td>
+                <!-- <td>row2,col4</td> -->
+            </tr>
+            <tr>
+                <td>row3,col1</td>
+                <td>row3,col2</td>
+                <td>row3,col3</td>
+                <!-- <td><center>row3,col4</center></td> -->
+            </tr>
+        </table>
+        <br><br>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
